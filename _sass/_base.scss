@@ -943,11 +943,13 @@ progress::-moz-progress-bar {
 
 .container-header {
   width: 100%;
+  flex-direction: column;
   display: flex;
 }
 
 .container {
-  display: flex
+  flex-direction: column;
+  display: flex;
 }
 
 .progress-bar {
