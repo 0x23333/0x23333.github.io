@@ -184,6 +184,12 @@ blockquote {
   margin-right: 1rem;
 }
 
+.content-row {
+  display: flex; /* 开启Flexbox */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;

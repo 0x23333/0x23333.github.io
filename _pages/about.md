@@ -4,14 +4,15 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-profile:
-  align: center
-  image: cma_lab.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>WE ARE A TEAM OF STORY TELLERS, ARTISTS, MAKERS, </p>
-    <p>DESIGNERS, DEVELOPERS, MUSICIANS, CODERS,</p>
-    <p>SCIENTISTS, THEORISTS, LUTHIERS AND BUILDERS.</p>
+main_image: cma_lab.jpg
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>555 your office number</p>
+#     <p>123 your address street</p>
+#     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
