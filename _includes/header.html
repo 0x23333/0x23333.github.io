@@ -3,6 +3,7 @@
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+        Computational Aesthetics Research Lab
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -34,7 +35,7 @@
             <span class="icon-bar bottom-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               {%- for page in site.pages -%}
