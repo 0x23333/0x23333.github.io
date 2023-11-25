@@ -2,12 +2,25 @@
     <header>
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
-        <div>
-        <div class="container-header">
-          <h2 class="top-text">Computational Aesthetics Research Lab</h2>
-        </div>
         <div class="container">
           <!-- Navbar Toggle -->
+          <div class="container-header">
+            <h2 class="top-text">Computational Aesthetics Research Lab</h2>
+          </div>
+          <div>
+            
+          </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+{% if site.enable_progressbar %}
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+        <div>
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar top-bar"></span>
@@ -86,15 +99,6 @@
               </li>
               {%- endif %}
             </ul>
-          </div>
-        </div>
-        </div>
-      </nav>
-{% if site.enable_progressbar %}
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
         </div>
       </progress>
 {%- endif %}
