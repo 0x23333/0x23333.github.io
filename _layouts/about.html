@@ -4,14 +4,19 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        <header class="post-header text-center"> <!-- 添加text-center类以居中标题 -->
+          <h1 class="post-title display-4 font-weight-bold"> <!-- 增大字体大小并加粗 -->
+            {{ site.title }}
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          <p class="lead desc">{{ page.subtitle }}</p> <!-- 使用Bootstrap的lead类来突出显示描述 -->
         </header>
 
         <article>
+          <!-- Team Introduction Section -->
+          <div class="team-introduction my-4"> <!-- 添加间距 -->
+            <p class="text-muted">WE ARE A TEAM OF STORY TELLERS, ARTISTS, MAKERS, DESIGNERS, DEVELOPERS, MUSICIANS, CODERS, SCIENTISTS, THEORISTS, LUTHIERS AND BUILDERS.</p>
+            <!-- Rest of the team introduction text goes here -->
+          </div>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
