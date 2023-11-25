@@ -185,9 +185,22 @@ blockquote {
 }
 
 .content-row {
-  display: flex; /* 开启Flexbox */
-  justify-content: center; /* 水平居中 */
-  align-items: center; /* 垂直居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-row .text {
+  flex: 1; /* flex属性使得文本元素可以填充剩余空间 */
+  text-align: center; /* 文本居中对齐 */
+  padding: 0 1%; /* 或者使用百分比来设置间距 */
+}
+
+.content-row .image {
+  flex: 0 0 80%; /* flex-grow: 0, flex-shrink: 0, flex-basis: 20% */
+  max-width: 80%; /* 图片最大宽度为父容器宽度的20% */
+  /* 调整图片高度以保持其纵横比 */
+  height: auto; /* 保持图片的原始纵横比 */
 }
 
 @media (min-width: 576px) {
