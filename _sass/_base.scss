@@ -940,6 +940,10 @@ progress::-moz-progress-bar {
   display: block;
 }
 
+.container-header {
+  width: 100%;
+}
+
 .progress-bar {
   background-color: var(--global-theme-color);
   width: 0%;
