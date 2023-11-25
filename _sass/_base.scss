@@ -250,6 +250,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  display: flex;
 }
 
 .navbar .dropdown-menu {
@@ -942,6 +943,11 @@ progress::-moz-progress-bar {
 
 .container-header {
   width: 100%;
+  display: flex;
+}
+
+.container {
+  display: flex
 }
 
 .progress-bar {
