@@ -191,9 +191,11 @@ blockquote {
 }
 
 .content-row .text {
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+  color: var(--global-text-color);
   flex: 1; /* flex属性使得文本元素可以填充剩余空间 */
-  text-align: center; /* 文本居中对齐 */
-  padding: 0 1%; /* 或者使用百分比来设置间距 */
 }
 
 .content-row .image {
