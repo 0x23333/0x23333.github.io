@@ -191,11 +191,11 @@ blockquote {
 }
 
 .content-row .text {
-  mjx-container[jax="CHTML"][display="true"] {
-    display: unset;
-  }
-  color: var(--global-text-color);
+  text-align: center; /* 文本居中对齐 */
   flex: 1; /* flex属性使得文本元素可以填充剩余空间 */
+  color: inherit;
+  padding: 0 1%; /* 设置间距 */
+  margin: 0; /* 取消h1默认的上下边距 */
 }
 
 .content-row .image {
