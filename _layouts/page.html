@@ -4,16 +4,24 @@ layout: default
 <!-- page.html -->
 <div class="post">
 
-  <header class="post-header">
+  <header class="post-header" style="display: flex;">
     <!-- <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p> -->
-    <h1 class="post-title">
+    {%- if page.title == "people" -%}
+    <h1 class="post-title" style="flex:1">
       STUDENTS
       <br/>
       AT CARL
     </h1>
-    <span class="post-description">Our students thrive on creativeapproaches,experimentalpractices and learning through
+    <span class="post-description" styel="width: 50%;">Our students thrive on creativeapproaches,experimentalpractices and learning through
       making</span>
+    {% else %}
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    <span class="post-description">{{ page.description }}</span>
+    {%- endif -%}
+
   </header>
 
   <article>
