@@ -565,6 +565,9 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  color: var(--global-theme-color);
+  font-size: 3rem;
+  max-width: 50%;
 }
 
 .post-list {
