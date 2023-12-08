@@ -6,9 +6,10 @@ layout: page
       <div class="post">
 
         <article>
+          <hr>
           {% if page.profiles -%}
           {% for profile in page.profiles %}
-          <hr>
+          <br/>
           <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if profile.image %}
               {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
@@ -44,4 +45,55 @@ layout: page
           {%- endif %}
         </article>
 
+        <!--WE USED TOWORD WITH..-->
+        <header class="post-header" >
+          <div style="display: flex;">
+            <h1 class="post-title" style="flex:1">
+              WE USED TO
+              <br/>
+              WORD WITH..
+            </h1>
+          </div>
+        </header>
+
+        
+        <article>
+          <hr>
+          {% if page.profiles_old -%}
+          {% for profile in page.profiles_old %}
+          <br/>
+          <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if profile.image %}
+              {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+
+              {% if profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image -%}
+            {% endif -%}
+            {%- if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
+            </div>
+            {%- endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content -%}
+            {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+            {%- else -%}
+            {{ content }}
+            {%- endif %}
+          </div>
+
+          {% endfor %}
+          {%- endif %}
+        </article>
 </div>
