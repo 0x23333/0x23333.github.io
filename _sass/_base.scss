@@ -188,6 +188,7 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .content-row .text {
@@ -199,9 +200,9 @@ blockquote {
   color: #B509AC;
 }
 
-.content-row .image {
+.content-image {
   flex: 0 0 80%; /* flex-grow: 0, flex-shrink: 0, flex-basis: 20% */
-  max-width: 80%; /* 图片最大宽度为父容器宽度的20% */
+  max-width: 100%; /* 图片最大宽度为父容器宽度的20% */
   /* 调整图片高度以保持其纵横比 */
   height: auto; /* 保持图片的原始纵横比 */
 }
