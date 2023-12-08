@@ -25,15 +25,7 @@
             <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
           {% endif %}
         </th>
-        <td><span style="font-size: 2rem;margin-right: 3rem;">{{ item.date | date: " %Y / %m" }} </span>
-          {% if item.redirect == blank %}
-          <a class="news-title" href="{{ item.url | relative_url }}"><span style="color: blue;font-size: 3rem;"> > </span></a>
-          {% elsif item.redirect contains '://' %}
-          <a class="news-title" href="{{ item.redirect }}" target="_blank"><span style="color: blue;font-size: 3rem;"> > </span></a>
-          {% else %}
-          <a class="news-title" href="{{ item.redirect | relative_url }}"><span style="color: blue;font-size: 3rem;"> > </span></a>
-          {% endif %}
-      </td>
+        <td><span style="font-size: 2rem;margin-right: 1rem;">{{ item.date | date: " %Y / %m" }} </span><span style="color: blue;font-size: 3rem;"> > </span></td>
       </tr>
       
     {%- endfor %}
