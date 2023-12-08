@@ -18,7 +18,7 @@
                   </th>
                   <td><span style="font-size: 2rem;margin-right: 1rem;">{{ item.date | date: " %Y / %m" }} &nbsp;&nbsp;&nbsp;</span><a href="{{ item.url | relative_url }}" style="color: blue;font-size: 3rem;"> > </a></td>
                 </tr>
-                {% elsif item.redirect contains '://' %}
+                <!-- {% elsif item.redirect contains '://' %}
                 <tr style="border-top: 2px solid var(--global-theme-color);border-bottom: 2px solid var(--global-theme-color);">
                   <th scope="row" style="width: 70%">
                     <a href="{{ item.redirect }}" class="news-title" target="_blank">{{ item.title }}</a>
@@ -34,7 +34,7 @@
                     <a href="{{ item.redirect | relative_url }}" class="news-title">{{ item.title }}</a>
                   </th>
                   <td><span style="font-size: 2rem;margin-right: 1rem;">{{ item.date | date: " %Y / %m" }} &nbsp;&nbsp;&nbsp;</span><a href="{{ item.redirect | relative_url }}" style="color: blue;font-size: 3rem;"> > </a></td>
-                </tr>
+                </tr> -->
                 {% endif %}                
               {%- endfor %}
               </table>
