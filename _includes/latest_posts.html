@@ -12,7 +12,7 @@
     {% endif %}
     {% for item in latest_posts limit: latest_posts_limit %}
       
-      <tr style="border-top: 2px solid var(--global-theme-color);">
+      <tr style="border-top: 2px solid var(--global-theme-color);border-bottom:  2px solid var(--global-theme-color);">
         <th scope="row" style="width: 70%">
           {% if item.redirect == blank %}
             <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
@@ -29,7 +29,6 @@
       </tr>
       
     {%- endfor %}
-    <hr color=var(--global-theme-color);>
     </table>
   </div>
 {%- else -%}
