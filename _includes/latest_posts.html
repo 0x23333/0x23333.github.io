@@ -11,9 +11,9 @@
               {% assign latest_posts_limit = latest_posts_size %}
               {% endif %}
               {% for item in latest_posts limit: latest_posts_limit %}
-                <hr style="color: var(--global-theme-color);">
-                <tr>
-                  <th scope="row" style="width: 80%">
+                
+                <tr style="border-top: 2px solid var(--global-theme-color);">
+                  <th scope="row" style="width: 70%">
                     {% if item.redirect == blank %}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {% elsif item.redirect contains '://' %}
@@ -25,11 +25,11 @@
                       <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
                     {% endif %}
                   </th>
-                  <td><span style="font-size: 2rem;">{{ item.date | date: " %Y / %M" }} </span><span style="color: blue;font-size: 3rem;"> > </span></td>
+                  <td><span style="font-size: 2rem;margin-right: 1rem;">{{ item.date | date: " %Y / %m" }} </span><span style="color: blue;font-size: 3rem;"> > </span></td>
                 </tr>
                 
               {%- endfor %}
-              <hr style="color: var(--global-theme-color);">
+              <hr color=var(--global-theme-color);>
               </table>
             </div>
           {%- else -%}
