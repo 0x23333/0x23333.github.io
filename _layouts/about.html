@@ -55,26 +55,30 @@ layout: default
             </div>
           </div>
 
-          <div class="profile float-left">
-            <img src="assets/img/prof_pic.jpg" alt="Your Image" class="content-image">
+          <div class="kk-total">
+            <div class="profile float-left">
+              <img src="assets/img/prof_pic.jpg" alt="Your Image" class="content-image">
+            </div>
+  
+            <div class="clearfix">
+                <div class="kk">
+                  CARL is directed by
+                  <br/>
+                  <b class="kk-name">Kang ZHANG</b>
+                </div>
+                <br/>
+                <div class="kk-info">
+                  <div>PhD in Computer Engineering</div>
+                  <div>University of Brighton, 1990</div>
+                  <div><b>Acting Thrust Head</b></div>
+                  <div>Thrust of Computational Media and Arts</div>
+                  <div><b>Professor</b></div>
+                  <div>Thrust of Computational Media and Arts</div>
+                  <div>Academy of Interdisciplinary Studies</div>
+                </div>
+            </div>
           </div>
 
-          <div class="clearfix">
-              <div class="kk">
-                CARL is directed by
-                <br/>
-                <b class="kk-name">Kang ZHANG</b>
-              </div>
-              <div class="kk-info">
-                <p>PhD in Computer Engineering</p>
-                <p>University of Brighton, 1990</p>
-                <p><b>Acting Thrust Head</b></p>
-                <p>Thrust of Computational Media and Arts</p>
-                <p><b>Professor</b></p>
-                <p>Thrust of Computational Media and Arts</p>
-                <p>Academy of Interdisciplinary Studies</p>
-              </div>
-          </div>
 
           <!-- News 
           {% if page.news and site.announcements.enabled -%}
@@ -84,7 +88,7 @@ layout: default
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: var(--global-theme-color); font-size: 3rem;">LATEST POSTS</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
