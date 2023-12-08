@@ -198,7 +198,10 @@ blockquote {
   // color: inherit;
   padding: 0 1%; /* 设置间距 */
   margin: 0; /* 取消h1默认的上下边距 */
-  color: #B509AC;
+}
+
+.text-content {
+  color: var(--global-theme-color);
   font-size: 7rem;
 }
 
@@ -215,16 +218,26 @@ blockquote {
   // color: inherit;
   padding: 0 1%; /* 设置间距 */
   margin: 0; /* 取消h1默认的上下边距 */
-  color: #B509AC;
+  color: var(--global-theme-color);
   text-align: center;
 }
 
 .clearfix-sub1 {
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .clearfix-sub2 {
+  margin-left: 20%;
+}
+
+.kk-name {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: var(--global-theme-color);
+}
+
+.kk-info {
   margin-left: 20%;
 }
 
