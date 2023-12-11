@@ -13,7 +13,7 @@
     {% for item in latest_posts limit: latest_posts_limit %}
       
       <tr style="border-top: 2px solid var(--global-theme-color);border-bottom:  2px solid var(--global-theme-color);">
-        <th scope="row" style="width: 70%">
+        <th scope="row" style="width: 60%">
           {% if item.redirect == blank %}
             <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% elsif item.redirect contains '://' %}
@@ -25,7 +25,13 @@
             <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
           {% endif %}
         </th>
-        <td><span style="font-size: 2rem;margin-right: 1rem;">{{ item.date | date: " %Y / %m" }} </span><span style="color: blue;font-size: 3rem;"> > </span></td>
+        {% if item.redirect == blank %}
+          <td><span style="font-size: 1.5rem;margin-right: 2rem;">{{ item.date | date: " %Y / %m" }} </span><a href="{{ item.url | relative_url }}" style="color: blue;font-size: 2rem;"> > </a></td>
+        {% elsif item.redirect contains '://' %}
+          <td><span style="font-size: 1.5rem;margin-right: 2rem;">{{ item.date | date: " %Y / %m" }} </span><a href="{{ item.redirect }}" style="color: blue;font-size: 2rem;"> > </a></td>
+        {% else %}
+          <td><span style="font-size: 1.5rem;margin-right: 2rem;">{{ item.date | date: " %Y / %m" }} </span><a href="{{ item.redirect | relative_url }}" style="color: blue;font-size: 2rem;"> > </a></td>
+        {% endif %}
       </tr>
       
     {%- endfor %}
