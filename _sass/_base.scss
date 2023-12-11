@@ -467,7 +467,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
   font-size: 0.75rem;
 
   .container {
@@ -631,6 +631,13 @@ footer.sticky-bottom {
   }
 }
 
+.card-title {
+  .text-lowercase {
+    .title {
+      color: var(--global-theme-color)
+    }
+  }
+}
 
 // Distill
 
