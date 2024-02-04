@@ -1,6 +1,5 @@
 ### Griffin Ming-Xuan Chen
-#### PhD. Student
-**, **
+#### Technician
 
 
 **Research Interests**

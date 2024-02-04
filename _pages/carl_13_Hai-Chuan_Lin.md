@@ -1,5 +1,5 @@
 ### Hai-Chuan Lin
-#### PhD. Student
+#### Mphil. Student
 **computer science, Beijing Normal University - Hong Kong Baptist University United International College**\
 **Computational Media and Art, HKUST(GZ)**
 
