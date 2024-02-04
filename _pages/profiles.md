@@ -11,13 +11,60 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: carl_1_ziwei.md
+    content: carl_1_Zi-Wei Wu.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: carl_2_Dan-Lu Fei.md
     image_circular: false # crops the image to make it circular
-
+  - align: right
+    image: prof_pic.jpg
+    content: carl_3_Rong Huang.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_4_Tian-Cheng LIU.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: prof_pic.jpg
+    content: carl_5_Le Zhou.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_6_Yu-Fan Li.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: prof_pic.jpg
+    content: carl_7_Rem Run-Gu Lin.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_8_Zhijing SHAO.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: prof_pic.jpg
+    content: carl_9_You Wang.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_10_Yu-Ao Wang.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: prof_pic.jpg
+    content: carl_11_Tian-Yu Lin.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_12_Jia-Qi Shi.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: prof_pic.jpg
+    content: carl_13_Hai-Chuan Lin.md
+    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg
+    content: carl_14_Griffin Ming-Xuan Chen.md
+    image_circular: false # crops the image to make it circular
 
 profiles_old:
   # if you want to include more than one profile, just replicate the following block
