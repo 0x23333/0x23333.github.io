@@ -1,5 +1,5 @@
 ### Tian-Yu Lin
-#### PhD. Student
+#### RA
 **Electronic Information Science and Technology, Beijing Forestry University**\
 **Artifcial Intelligence & Digitat Media, Beijing Normal University - Hong Kong Baptist University United International College**
 

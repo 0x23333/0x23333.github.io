@@ -1,5 +1,5 @@
 ### Yu-Ao Wang
-#### PhD. Student
+#### RA
 **Product Design (Industrial Styling Design), China Academy of Art(CAA)**\
 **Industrial Design Research, China Academy of Art(CAA)**
 
