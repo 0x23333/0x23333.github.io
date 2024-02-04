@@ -26,7 +26,7 @@ profiles:
   content: carl_4_Tian-Cheng_LIU.md
   image_circular: false # crops the image to make it circular
 - align: right
-  image: prof_pic.jpg
+  image: team/carl_5_Aven_Le_Zhou.jpg
   content: carl_5_Aven_Le_Zhou.md
   image_circular: false # crops the image to make it circular
 - align: left
