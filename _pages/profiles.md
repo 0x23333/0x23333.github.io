@@ -14,7 +14,7 @@ profiles:
   content: carl_1_Zi-Wei_Wu.md
   image_circular: false # crops the image to make it circular
 - align: left
-  image: prof_pic.jpg
+  image: team/carl_2_Dan-Lu_Fei.jpg
   content: carl_2_Dan-Lu_Fei.md
   image_circular: false # crops the image to make it circular
 - align: right
@@ -27,7 +27,7 @@ profiles:
   image_circular: false # crops the image to make it circular
 - align: right
   image: prof_pic.jpg
-  content: carl_5_Le_Zhou.md
+  content: carl_5_Aven_Le_Zhou.md
   image_circular: false # crops the image to make it circular
 - align: left
   image: prof_pic.jpg
@@ -38,7 +38,7 @@ profiles:
   content: carl_7_Rem_Run-Gu_Lin.md
   image_circular: false # crops the image to make it circular
 - align: left
-  image: prof_pic.jpg
+  image: team/carl_8_Zhijing_SHAO.jpg
   content: carl_8_Zhijing_SHAO.md
   image_circular: false # crops the image to make it circular
 - align: right

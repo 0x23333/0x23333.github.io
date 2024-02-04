@@ -9,4 +9,4 @@ VINCI '23: Proceedings of the 16th International Symposium on Visual Information
 
 Graph Grammar, Generative Art and Design
 
-**Contact**: 
+**Contact**: hlin38connect.hkust-gz.edu.cn
