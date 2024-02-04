@@ -9,61 +9,61 @@ nav_order: 1
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
+- align: right
     image: prof_pic.jpg
-    content: carl_1_Zi-Wei Wu.md
+    content: carl_1_Zi-Wei_Wu.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_2_Dan-Lu Fei.md
+    content: carl_2_Dan-Lu_Fei.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_3_Rong Huang.md
+    content: carl_3_Rong_Huang.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_4_Tian-Cheng LIU.md
+    content: carl_4_Tian-Cheng_LIU.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_5_Le Zhou.md
+    content: carl_5_Le_Zhou.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_6_Yu-Fan Li.md
+    content: carl_6_Yu-Fan_Li.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_7_Rem Run-Gu Lin.md
+    content: carl_7_Rem_Run-Gu_Lin.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_8_Zhijing SHAO.md
+    content: carl_8_Zhijing_SHAO.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_9_You Wang.md
+    content: carl_9_You_Wang.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_10_Yu-Ao Wang.md
+    content: carl_10_Yu-Ao_Wang.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_11_Tian-Yu Lin.md
+    content: carl_11_Tian-Yu_Lin.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_12_Jia-Qi Shi.md
+    content: carl_12_Jia-Qi_Shi.md
     image_circular: false # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: carl_13_Hai-Chuan Lin.md
+    content: carl_13_Hai-Chuan_Lin.md
     image_circular: false # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: carl_14_Griffin Ming-Xuan Chen.md
+    content: carl_14_Griffin_Ming-Xuan_Chen.md
     image_circular: false # crops the image to make it circular
 
 profiles_old:
