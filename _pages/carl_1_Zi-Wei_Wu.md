@@ -9,4 +9,4 @@ Lumen prize winner, Batsford prize winner, Information is beautiful award - Long
 
 Artificial Life art, Generative art, AI art, Bio art
 
-**Contact**: 
+**Contact**: xxxx@xxx.xx
