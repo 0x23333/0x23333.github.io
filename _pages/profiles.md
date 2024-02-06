@@ -54,7 +54,7 @@ profiles:
   content: carl_11_Tian-Yu_Lin.md
   image_circular: false # crops the image to make it circular
 - align: left
-  image: prof_pic.jpg
+  image: team/carl_12_Jia-Qi_Shi.jpg
   content: carl_12_Jia-Qi_Shi.md
   image_circular: false # crops the image to make it circular
 - align: right
