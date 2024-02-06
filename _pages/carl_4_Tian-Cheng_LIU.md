@@ -12,7 +12,7 @@ Tiancheng LIU, a Ph.D. student at HKUST (GZ), is deeply engaged in the study of 
 
 Computing Aesthetics, Interactive Media, Culture Heritage, Blockchain Application, Cloud Computing
 
-**Contact**:
+**Contact**
 
 Email: tcliu767@connect.hkust-gz.edu.cn
 
