@@ -22,7 +22,7 @@ profiles:
   content: carl_3_Rong_Huang.md
   image_circular: false # crops the image to make it circular
 - align: left
-  image: prof_pic.jpg
+  image: team/carl_4_Tian-Cheng_LIU.jpg
   content: carl_4_Tian-Cheng_LIU.md
   image_circular: false # crops the image to make it circular
 - align: right
@@ -30,11 +30,11 @@ profiles:
   content: carl_5_Aven_Le_Zhou.md
   image_circular: false # crops the image to make it circular
 - align: left
-  image: prof_pic.jpg
-  content: carl_6_Yu-Fan_Li.md
+  image: team/carl_6_Yu-Fan_Li.png
+  content: carl_6_Yu-Fan_Li.md 
   image_circular: false # crops the image to make it circular
 - align: right
-  image: prof_pic.jpg
+  image: team/carl_7_Rem_Run-Gu_Lin.jpg
   content: carl_7_Rem_Run-Gu_Lin.md
   image_circular: false # crops the image to make it circular
 - align: left
@@ -42,7 +42,7 @@ profiles:
   content: carl_8_Zhijing_SHAO.md
   image_circular: false # crops the image to make it circular
 - align: right
-  image: prof_pic.jpg
+  image: team/carl_9_You_Wang.jpg
   content: carl_9_You_Wang.md
   image_circular: false # crops the image to make it circular
 - align: left
