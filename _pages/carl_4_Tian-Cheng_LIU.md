@@ -2,7 +2,7 @@
 
 #### Ph.D. Student
 
-**B.Eng. in Network Engineer, South China Univerisity of Technology**\
+**B.Eng. in Network Engineering, South China Univerisity of Technology**\
 **B.Econ. in Finance, South China Univerisity of Technology**\
 **M.Eng. in Information, Waseda University**
 
