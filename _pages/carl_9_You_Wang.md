@@ -5,6 +5,8 @@
 
 **Research Interests**
 
-1.The recursion and compensation of subject perception in the sequence of time and space; 2.The companionship of social innovation and public art; 3.The relationship between human individual displacement and information dissemination, and the social & technical problems caused by it.
+1.The recursion and compensation of subject perception in the sequence of time and space; 
+2.The companionship of social innovation and public art; 
+3.The relationship between human individual displacement and information dissemination, and the social & technical problems caused by it.
 
-**Contact**: 
+**Contact**: ywang342@connect.hkust-gz.edu.cn
